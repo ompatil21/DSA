@@ -1,11 +1,9 @@
-# take input from user
-a = int(input("Enter First Number:-"))
-b = int(input("Enter Second Number:-"))
-c = int(input("Enter Thired number:-"))
+def calculate_interest(time, interest_rate, amount):
 
-average = (a + b + c) / 3
-print(average)
+    decimal_rate = interest_rate / 100
 
-# multiline input using map
-o, m, p = map(int, input().split())
-print(o, m, p)
+    interest = decimal_rate * time * amount
+    print(interest)
+
+
+calculate_interest(36, 10.65, 2000000)
