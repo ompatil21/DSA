@@ -78,3 +78,13 @@ def calsum(n1, n2):
 
 
 print(calsum(5, 9))
+
+
+"""
+from 1 to 2000 print all the leap years using while loop 
+"""
+year = 1
+while year <= 2000:
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print(year)
+    year += 1
