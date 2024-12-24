@@ -148,3 +148,19 @@ def separate_chars(s: str):
 unique, multiple = separate_chars("programming")
 print(f"Unique characters: {unique}")
 print(f"Multiple characters: {multiple}")
+
+
+"""
+list of tuple to dictionary
+"""
+# Example list of tuples
+list_of_tuples = [("a", 1), ("b", 2), ("c", 3)]
+
+# Initialize an empty dictionary
+result_dict = {}
+
+# Loop through the list of tuples
+for key, value in list_of_tuples:
+    result_dict[key] = value
+
+print(result_dict)
