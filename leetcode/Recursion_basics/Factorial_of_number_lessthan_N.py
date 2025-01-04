@@ -20,7 +20,6 @@ Constraints:
 
 
 def factorialNumbers(n):
-    # code here
     result = []
     factorial = 1
     k = 1
