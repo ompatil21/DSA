@@ -15,7 +15,7 @@ Explanation: The sorted array will be [1, 4, 9].
 """
 
 
-def insertionSort(self, arr):
+def insertionSort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
